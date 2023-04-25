@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<WebAppProjetoB2023.Models.Fabricante>
 
 @{
-    Layout = null;
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <!DOCTYPE html>
@@ -10,40 +10,6 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            color: white;
-            text-align: center;
-        }
-
-        body > p {
-            width: 100%;
-            font-size: 300%;
-        }
-
-        body {
-            background-image: linear-gradient(to left top, black, black, darkgreen);
-            display: flex;
-            justify-content: center;
-            align-content: center;
-            height: 100vh;
-            flex-wrap: wrap;
-        }
-
-        a {
-            color: lime;
-        }
-
-        td, th {
-            padding: 0 0.2em;
-        }
-
-        th {
-            color: deepskyblue;
-        }
-    </style>
 </head>
 <body>
     <p>
